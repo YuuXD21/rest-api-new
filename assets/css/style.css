@@ -1,0 +1,98 @@
+.content {
+    display: flex;
+}
+.content i {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    background-color: #e14eca;
+    border-radius: 25px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    margin-right: 30px;
+}
+
+/* .arrow-change {
+    display: grid;
+    place-items: center;
+    height: 100px; 
+} */
+
+.arrow-change {
+    align-items: center;
+}
+  
+.garis {
+    height: 300px; 
+    width: 10px; 
+    border-right: 1px solid white; 
+    margin: 0 10px; 
+}
+
+.garis-2 {
+    height: 100px; 
+    width: 10px; 
+    border-right: 1px solid white; 
+    margin: 0 10px; 
+}
+
+.garis-3 {
+    height: 45px; 
+    width: 10px; 
+    border-right: 1px solid white; 
+    margin: 0 10px; 
+}
+
+.garis-4 {
+    height: 50px; 
+    width: 10px; 
+    border-right: 1px solid white; 
+    margin: 0 10px;
+}
+  
+/* .content .garis {
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 1px;
+    height: 110px;
+} */
+
+.contact i .second {
+    margin-bottom: 0;
+}
+
+.content h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.content .latest .text-latest {
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #0cda0c;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 110%;
+}
+
+@media(max-width: 730px) {
+    .content .changelog .title {
+        font-size: 20px;
+    }
+
+    .content .arrow-change .garis {
+        height: 300px;
+    }
+
+    .content .arrow-change .garis-2 {
+        height: 110px;
+    }
+    .arrow-change {
+        display: none;
+    }
+}

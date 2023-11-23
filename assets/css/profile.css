@@ -1,0 +1,15 @@
+.content {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+@media (min-width: 731px) {
+    .content {
+      display: flex;
+    }
+    .content form {
+        width: 40%;
+    }
+  }

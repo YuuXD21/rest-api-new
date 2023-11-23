@@ -1,0 +1,15 @@
+@media (min-width: 730px) {
+    .docs-content {
+        display: flex;
+    }
+
+    .thanks-to {
+        width: 200%;
+    }
+}
+
+@media (max-width: 730px) {
+    .thanks-to {
+        width: 54%;
+    }
+}
